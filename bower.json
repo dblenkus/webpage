@@ -1,0 +1,7 @@
+{
+  "name": "personal",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
