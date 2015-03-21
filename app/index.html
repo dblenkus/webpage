@@ -61,7 +61,6 @@
                         <li><a href="#portfolio">portfolio</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">services</a></li>
-                        <li><a href="#blog">blog</a></li>
                         <li><a href="#contact">contact</a></li>
                     </ul>
                 </nav>
@@ -484,124 +483,6 @@
             </div>
         </section>
 
-        <section id="blog" class="page-section nav-waypoint">
-            <div class="page-title triggerAnimation animated" data-animate="fadeIn">blog</div>
-
-            <div class="container">
-                <ul id="blog-list" class="triggerAnimation animated" data-animate="fadeIn">
-                    <li class="blog-item element" data-sizex="2">
-                        <img src="images/blog/1.jpg" />
-
-                        <div class="description" data-position="right">
-                            <p class="title f20"><a href="#">Standard Post</a></p>
-
-                            <p class="text">
-                                Duis vel felis vel massa condimentum fermentum et vitae nisi. In hac habitasse platea dictumst. Vestibulum lobortis, sapien sed laoreet gravida, sapien odio pulvinar leo, nec cursus dui
-                            </p>
-
-                            <div class="meta">
-                                <span>
-                                    <i class="icon-clock"></i>
-
-                                    09/ 04 /2013
-                                </span>
-
-                                <span>
-                                    <i class="icon-chat"></i>
-
-                                    23
-                                </span>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="blog-item element" data-sizex="1">
-                        <img src="images/blog/2.jpg" />
-                    </li>
-
-                    <li class="blog-item element" data-sizex="1">
-                        <img src="images/blog/3.jpg" />
-
-                        <div class="description" data-position="left">
-                            <p class="title f20"><a href="#">Standard Post</a></p>
-
-                            <p class="text">
-                                Duis vel felis vel massa condimentum fermentum et vitae nisi. In hac habitasse platea dictumst.
-                            </p>
-
-                            <div class="meta">
-                                <span>
-                                    <i class="icon-clock"></i>
-
-                                    09/ 04 /2013
-                                </span>
-
-                                <span>
-                                    <i class="icon-chat"></i>
-
-                                    23
-                                </span>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="blog-item element"  data-sizex="2">
-                        <img src="images/blog/5.jpg" />
-
-                        <div class="description" data-position="left">
-                            <p class="title f20"><a href="#">Standard Post</a></p>
-
-                            <p class="text">
-                                Duis vel felis vel massa condimentum
-                            </p>
-
-                            <div class="meta">
-                                <span>
-                                    <i class="icon-clock"></i>
-
-                                    09/ 04 /2013
-                                </span>
-
-                                <span>
-                                    <i class="icon-chat"></i>
-
-                                    23
-                                </span>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="blog-item element"  data-sizex="1">
-                        <img src="images/blog/4.jpg" />
-
-                        <div class="description" data-position="left">
-                            <p class="title f20"><a href="#">Standard Post</a></p>
-
-                            <p class="text">
-                                Mauris felis nisl, consequat eget eleifend sit amet,
-                            </p>
-
-                            <div class="meta">
-                                <span>
-                                    <i class="icon-clock"></i>
-
-                                    09/ 04 /2013
-                                </span>
-
-                                <span>
-                                    <i class="icon-chat"></i>
-
-                                    23
-                                </span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-                <a id="blog-load-more" href="javascript:void(0)"><i class="icon-down-open-big"></i></a>
-            </div>
-        </section>
-
         <section id="contact" class="nav-waypoint">
             <div id="gmap"></div>
 
@@ -658,23 +539,5 @@
         <script type="text/javascript" src="scripts/jquery-packed_plugins.min.js"></script>
         <script type="text/javascript" src="scripts/jquery.main.js"></script>
         <!-- endbuild -->
-
-        <script type="text/javascript">
-            $(window).load(function(){
-                items_set = [
-                    {data_sizex: '1' , data_position: "left" , src : 'images/blog/2.jpg' , title : 'Standard Post', content: 'Aenean rutrum leo eget diam hendrerit, id ', date_post: '09/ 04 /2013' , comments: '25'},
-
-                    {data_sizex: '2' , data_position: "right" , src : 'images/blog/1.jpg' , title : 'Standard Post', content: 'Aenean rutrum leo eget diam hendrerit, id condimentum tellus condimentum. Etiam urna sapien, sagittis at dolor sed, laoreet', date_post: '09/ 04 /2013' , comments: '20'},
-
-                    {data_sizex: '1' , data_position: "left" , src : 'images/blog/3.jpg' , title : 'Standard Post', content: 'Aenean rutrum leo eget diam hendrerit, id ', date_post: '09/ 04 /2013' , comments: '25'},
-                ];
-
-                $('#blog-list').portfolio_addon({
-                    type : 1, // 2-4 columns simple portfolio
-                    load_count : 3,
-                    items : items_set
-                });
-            });
-        </script>
     </body>
 </html>

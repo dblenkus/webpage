@@ -13,12 +13,6 @@
 	.contact-item p { margin-top: 20px; }
 }
 
-@media only screen and (max-width:979px) and (min-width: 768px), screen and (max-device-width:979px) and (max-device-width: 768px) {
-
-	.blog-item[data-sizex="2"] { width: 66.6%; }
-	.blog-item[data-sizex="1"] { width: 33.34%; }
-}
-
 @media only screen and (max-width:979px) and (min-width: 551px), screen and (max-device-width:979px) and (max-device-width: 551px) {
 
 	.team-item:nth-of-type(3n) .description
@@ -92,9 +86,6 @@
 		margin-bottom: 30px;
 	}
 
-	.blog-item[data-sizex="2"] { width: 100%; }
-	.blog-item[data-sizex="1"] { width: 49.98%; }
-
 	.contact-item
 	{
 		float: left;
@@ -160,13 +151,4 @@
 
 @media only screen and (max-width:480px), screen and (max-device-width:480px) {
 	.page-title { font-size: 55px; }
-
-	.blog-item[data-sizex="2"],
-	.blog-item[data-sizex="1"],
-	.blog-item[data-sizex="2"] .description
-	{
-		width: 100%; 
-	}
-
-	.blog-item img {min-height: 240px; }
 }
