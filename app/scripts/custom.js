@@ -210,24 +210,4 @@ $(document).ready(function(){
 	};
 
 	parallax();
-
-	/* Google map
-	================================================== */
-	$(function() {
-
-		var yourStartLatLng = new google.maps.LatLng(40.74843, -73.985655);
-		$('#gmap').gmap({'center': yourStartLatLng, 'zoom': 13, 'disableDefaultUI': true, 'callback': function() {
-			var self = this;
-			self.addMarker({'position': this.get('map').getCenter()});
-		}});
-	});
-
-	$window.on('resize',function(){
-
-		var $this = $(this);
-
-		if ($this.width() > 768) { $('#navigation').removeAttr('style'); }
-
-		parallax();
-	});
 });
