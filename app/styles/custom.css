@@ -120,7 +120,7 @@ a, a:hover { text-decoration: none; }
 
 #logo
 {
-	max-width: 100%;
+	max-width: 99%;
 	display: inline-block;
 	vertical-align: middle;
 	margin-top: -85px; /*minus height navigation*/
