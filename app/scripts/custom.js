@@ -46,7 +46,7 @@ $(document).ready(function(){
 		 images:[
 		 "/images/portfolio_big/lea-winter.jpg",
 		 "/images/portfolio_big/sabina.jpg",
-		 "/images/portfolio_big/lea-hallowen.jpg",
+		 "/images/portfolio_big/lea-halloween.jpg",
 		 "/images/portfolio_big/janina-queen.jpg",
 		 "/images/portfolio_big/maja-dolphin.jpg",
 		 "/images/portfolio_big/lea-industry.jpg",
