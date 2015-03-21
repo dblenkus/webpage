@@ -195,8 +195,6 @@ $(document).ready(function(){
 	};
 
 
-	$('.team-item').filter( ':last' ).addClass('last-item');
-
 	/* Paralax_background
 	================================================== */
 	if( !device.tablet() && !device.mobile()) {

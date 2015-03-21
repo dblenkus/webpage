@@ -1,7 +1,5 @@
 @media only screen and (max-width:979px), screen and (max-device-width:979px) {
 
-	.team-item { width: 33.33%; }
-
 	.contact-item { text-align: center; }
 
 	.contact-item .ico
@@ -11,21 +9,6 @@
 	}
 
 	.contact-item p { margin-top: 20px; }
-}
-
-@media only screen and (max-width:979px) and (min-width: 551px), screen and (max-device-width:979px) and (max-device-width: 551px) {
-
-	.team-item:nth-of-type(3n) .description
-	{
-		left: auto;
-		right: 0;
-	}
-
-	.team-item:nth-of-type(3n):hover .description
-	{
-		left: auto;
-		right: 100%;
-	}
 }
 
 @media only screen and (max-width:950px), screen and (max-device-width:950px) {
@@ -131,22 +114,6 @@
 	}
 
 	.contact-item:first-child { margin-top: 0; }
-}
-
-@media only screen and (max-width:550px), screen and (max-device-width:550px) {
-	.team-item { width: 50%; }
-
-	.team-item:nth-of-type(2n) .description
-	{
-		left: auto;
-		right: 0;
-	}
-
-	.team-item:nth-of-type(2n):hover .description
-	{
-		left: auto;
-		right: 100%;
-	}
 }
 
 @media only screen and (max-width:480px), screen and (max-device-width:480px) {
