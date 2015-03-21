@@ -3,7 +3,11 @@
 /*font-family: 'Lato', sans-serif;*/
 
 html,body { height: 100%; }
-html { overflow-y: hidden; }
+html {
+	overflow-y: hidden;
+	color: #959595;
+	background: #ffffff;
+}
 
 a, a:hover { text-decoration: none; }
 
@@ -31,6 +35,7 @@ a, a:hover { text-decoration: none; }
 	height: 38px;
 	width: 42px;
 	position: relative;
+	color: #e34f00;
 }
 
 #blog-load-more,
@@ -40,6 +45,7 @@ a, a:hover { text-decoration: none; }
 {
 	border-style: solid;
 	border-width: 1px;
+	border-color: #e34f00;
 }
 
 #blog-load-more:before,
@@ -280,6 +286,8 @@ a, a:hover { text-decoration: none; }
 	margin-bottom: 55px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
+	color: #505050;
+	border-bottom-color: #e5e5e5;
 }
 
 .page-title.white
@@ -299,6 +307,7 @@ a, a:hover { text-decoration: none; }
 	width: 13px;
 	margin-left: -6px;
 	background-image: url(../images/ico/page_title_bg.png);
+	background-position: top left;
 }
 
 .page-title.white:after { background-position: top right; }
@@ -329,7 +338,8 @@ a, a:hover { text-decoration: none; }
 	height: 29px;
 	line-height: 29px;
 	position: relative;
-
+	color: #797979;
+}
 	-webkit-transition: border-color 300ms ease-in-out , color 300ms ease-in-out;
 	-moz-transition: border-color 300ms ease-in-out , color 300ms ease-in-out;
 	-ms-transition: border-color 300ms ease-in-out , color 300ms ease-in-out;
@@ -360,6 +370,20 @@ a, a:hover { text-decoration: none; }
 	-ms-transition: border-color 300ms ease-in-out;
 	-o-transition: border-color 300ms ease-in-out;
 	transition: border-color 300ms ease-in-out;
+}
+
+#option-set a:hover,
+#option-set a.selected
+{
+    color: #e34f00;
+}
+
+#option-set a:hover,
+#option-set a:hover:before,
+#option-set a.selected,
+#option-set a.selected:before
+{
+	border-color: #e34f00;
 }
 
 #portfolio-list
@@ -517,6 +541,7 @@ a, a:hover { text-decoration: none; }
 {
 	display: block;
 	margin-bottom: 15px;
+	color: #505050;
 }
 
 #about [class*="span"] { margin-bottom: 45px; }
@@ -537,6 +562,7 @@ a, a:hover { text-decoration: none; }
 	width: 30px;
 	height: 1px;
 	margin-left: -15px;
+	background-color: #e5e5e5;
 }
 
 #team
@@ -1040,8 +1066,12 @@ footer
 	padding-bottom: 65px;
 }
 
-#copyright { margin-top: 25px; }
+#copyright {
+	margin-top: 25px;
+	color: #8c8c8c;
+}
 
+#copyright a { color: #e34f00; }
 
 /*---------------- imagelightbox ----------------*/
 
