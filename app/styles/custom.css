@@ -339,7 +339,7 @@ a, a:hover { text-decoration: none; }
 	line-height: 29px;
 	position: relative;
 	color: #797979;
-}
+
 	-webkit-transition: border-color 300ms ease-in-out , color 300ms ease-in-out;
 	-moz-transition: border-color 300ms ease-in-out , color 300ms ease-in-out;
 	-ms-transition: border-color 300ms ease-in-out , color 300ms ease-in-out;
@@ -480,8 +480,6 @@ a, a:hover { text-decoration: none; }
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url(../images/bg/portfolio_item_bg.png); /*IE 8*/
-	background: rgba(227,79,0,0.28);
 	z-index: 3;
 
 	-webkit-transition: background 500ms ease-in-out;
@@ -502,7 +500,7 @@ a, a:hover { text-decoration: none; }
 .portfolio-item:hover .overlay
 {
 	background: url(../images/bg/portfolio_item_bg_hover.png); /*IE 8*/
-	background: rgba(227,79,0,0.79);
+	background: rgba(227,79,0,0.7);
 }
 
 .portfolio-item .overlay i
@@ -1078,7 +1076,7 @@ footer
 #imagelightbox-overlay
 {
 	background: url(../images/bg/portfolio_item_bg.png);
-	background: rgba(227,79,0,0.28);
+	background: rgba(0,0,0,0.7);
 	position: fixed;
 	z-index: 9998;
 	top: 0;
