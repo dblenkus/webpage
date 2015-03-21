@@ -44,12 +44,12 @@ $(document).ready(function(){
 		// else:
 
 		 images:[
-		 "images/slide/1.jpg",
-		 "images/slide/2.jpg",
-		 "images/slide/3.jpg",
-		 "images/slide/4.jpg",
-		 "images/slide/5.jpg",
-		 "images/slide/6.jpg",
+		 "/images/portfolio_big/lea-winter.jpg",
+		 "/images/portfolio_big/sabina.jpg",
+		 "/images/portfolio_big/lea-hallowen.jpg",
+		 "/images/portfolio_big/janina-queen.jpg",
+		 "/images/portfolio_big/maja-dolphin.jpg",
+		 "/images/portfolio_big/lea-industry.jpg",
 		 ],
 
 		onStart:function(){},
