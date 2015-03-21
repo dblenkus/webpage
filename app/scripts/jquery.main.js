@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 	$("html").niceScroll({
 		//cursoropacitymin:1,
-		cursorcolor:"#673653",
+		cursorcolor:"#e34f00",
 		zindex: 100,
 		cursorborderradius: 0,
 		cursorborder:0,
@@ -136,13 +136,13 @@ $(document).ready(function(){
 			}
 
 		} , { offset: '150px' } );
-		
+
 		$this.waypoint( function( direction ) {
 
 			if( direction === 'up' ) {
-			
+
 				var containerID = $this.attr('id');
-				
+
 				/* update navigation */
 				$nav.find('a').removeClass('current');
 				$nav.find('a[href*=#'+containerID+']').addClass('current');
