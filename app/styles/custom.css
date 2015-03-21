@@ -120,6 +120,7 @@ a, a:hover { text-decoration: none; }
 
 #logo
 {
+	max-width: 100%;
 	display: inline-block;
 	vertical-align: middle;
 	margin-top: -85px; /*minus height navigation*/
@@ -173,7 +174,7 @@ a, a:hover { text-decoration: none; }
 	display: block;
 	height: 3px;
 	width: 16px;
-	background-color: #d693bb;
+	background-color: #e3a888;
 	margin: 3px auto 0;
 
 	-webkit-transition: background-color 300ms ease-in-out;
@@ -605,7 +606,7 @@ a, a:hover { text-decoration: none; }
 	transition: color 300ms ease-in-out;
 }
 
-#social-group a:hover { color: #d693bb; }
+#social-group a:hover { color: #e34f00; }
 
 #social-group a:first-child{ margin-left: 0; }
 
