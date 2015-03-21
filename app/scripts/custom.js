@@ -172,26 +172,6 @@ $(document).ready(function(){
 					triggerOnce: true
 				}
 		);
-
-		$('#services .animated').each(function() {
-
-			$(this).waypoint(function() {
-
-				var $this = $(this),
-					animation = $this.attr('data-animate');
-
-				setTimeout(function () {
-					$(this).css('opacity', '');
-					$this.addClass("animated " + animation);
-				}, 100 * $this.index('.animated'));
-
-			},
-					{
-						offset: '99%',
-						triggerOnce: true
-					}
-			);
-		});
 	};
 
 

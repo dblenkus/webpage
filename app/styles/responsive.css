@@ -58,17 +58,6 @@
 @media only screen and (max-width:767px), screen and (max-device-width:767px) {
 	.container { width: 570px; }
 
-	#services-inner { padding-bottom: 40px; }
-	#services .row { margin-left: -30px; }
-
-	.services-item
-	{
-		float: left;
-		width: 45%;
-		margin-left: 30px;
-		margin-bottom: 30px;
-	}
-
 	.contact-item
 	{
 		float: left;
@@ -94,16 +83,6 @@
 	#option-set li:first-child
 	{
 		margin: 0 20px 15px;
-	}
-
-	#services .row { margin-left: 0; }
-
-	.services-item
-	{
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		width: 70%;
 	}
 
 	.contact-item

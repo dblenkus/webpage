@@ -553,12 +553,12 @@ a, a:hover { text-decoration: none; }
 }
 
 
-/*---------------- services ----------------*/
+/*---------------- contact ----------------*/
 
-#services
+#contact
 {
-	padding-top: 0;
-	background-image: url(../images/services_bg.jpg);
+	position: relative;
+	background-image: url(../images/contact_bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -568,108 +568,13 @@ a, a:hover { text-decoration: none; }
 	color: #ffffff;
 }
 
-#services-inner
+#contact-inner
 {
 	position: relative;
 	height: 100%;
 	width: 100%;
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background: url(../images/bg/services_bg.png);
-}
-
-.services-item
-{
-	position: relative;
-	height: 150px;
-	background-color: rgba(255,255,255,0);
-
-	-webkit-transition: border-color 300ms ease-in-out, background-color 300ms ease-in-out;
-	-moz-transition: border-color 300ms ease-in-out, background-color 300ms ease-in-out;
-	-ms-transition: border-color 300ms ease-in-out, background-color 300ms ease-in-out;
-	-o-transition: border-color 300ms ease-in-out, background-color 300ms ease-in-out;
-	transition: border-color 300ms ease-in-out, background-color 300ms ease-in-out;
-}
-
-.services-item:hover { background-color: rgba(255,255,255,0.19); }
-
-.services-item,
-.services-item:before
-{
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgba(255,255,255,0);
-}
-
-.services-item:before
-{
-	content: "";
-	position: absolute;
-	top: 2px;
-	right: -4px;
-	bottom: 2px;
-	left: -4px;
-
-	-webkit-transition: border-color 300ms ease-in-out;
-	-moz-transition: border-color 300ms ease-in-out;
-	-ms-transition: border-color 300ms ease-in-out;
-	-o-transition: border-color 300ms ease-in-out;
-	transition: border-color 300ms ease-in-out;
-}
-
-.services-item:hover,
-.services-item:hover:before
-{
-	border-color: #a8a3a7;
-}
-
-.services-item:after
-{
-	content: "";
-	display: inline-block;
-	height: 100%;
-	width: 0;
-	vertical-align: middle;
-}
-
-.services-item .inner
-{
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.services-item i
-{
-	display: inline-block;
-	margin-bottom: 25px;
-	font-size: 40px;
-	line-height: 1;
-}
-
-.services-item .title
-{}
-
-
-/*---------------- contact ----------------*/
-
-#contact
-{
-	position: relative;
-}
-
-#gmap
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%
-}
-
-#contact-inner
-{
-	position: relative;
-	padding-bottom: 100px;
 	background: url(../images/bg/contact_bg.png);
 }
 
@@ -708,9 +613,6 @@ a, a:hover { text-decoration: none; }
 {
 	text-align: left;
 }
-
-.contact-item:after
-{}
 
 .contact-item .ico
 {
