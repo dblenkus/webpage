@@ -83,9 +83,9 @@ a, a:hover { text-decoration: none; }
 }
 
 
-/*---------------- intro ----------------*/
+/*---------------- home ----------------*/
 
-#intro
+#home
 {
 	height: 100%;
 	position: relative;
@@ -98,7 +98,7 @@ a, a:hover { text-decoration: none; }
 	position: relative;
 }
 
-#intro .overlay
+#home .overlay
 {
 	position: absolute;
 	top: 0;
@@ -109,7 +109,7 @@ a, a:hover { text-decoration: none; }
 	text-align: center;
 }
 
-#intro .overlay:before
+#home .overlay:before
 {
 	content: "";
 	height: 100%;
